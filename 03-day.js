@@ -28,10 +28,16 @@ console.log("this is map() method");
 
 //print even numbers
 console.log("even numbers")
-const even = number.map(function (el){
-    if(el%2==0){
-        console.log(el);
-    }
+//const even = number.map(function (el){
+    //if(el%2==0){
+    //    console.log(el);
+  //  }
+//})
+
+const few=number.map((el)=>{
+  if(el%2==0){
+    console.log(el);
+}
 })
 
 //arrow functions
@@ -40,5 +46,9 @@ let newfun=(x,y) =>{
     return (x+y)*2
 }
 
+const hello=(el)=>{
+    console.log("this is a arrow function");
+}
 
-console.log("this is arrow function ", newfun(1,1) )
+hello()
+//console.log("this is arrow function ", newfun(1,1) )
