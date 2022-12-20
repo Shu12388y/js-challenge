@@ -27,14 +27,14 @@ console.log("this is map() method");
 
 
 //print even numbers
-console.log("even numbers")
+//console.log("even numbers")
 //const even = number.map(function (el){
     //if(el%2==0){
     //    console.log(el);
   //  }
 //})
 
-const few=number.map((el)=>{
+/*const few=number.map((el)=>{
   if(el%2==0){
     console.log(el);
 }
@@ -51,4 +51,12 @@ const hello=(el)=>{
 }
 
 hello()
-//console.log("this is arrow function ", newfun(1,1) )
+//console.log("this is arrow function ", newfun(1,1) )*/
+
+
+const name=(el)=>{
+    console.log(`this is a arrow function ${el}`);
+}
+
+
+name('hello')
