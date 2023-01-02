@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+header{
+    font-size: 2em;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 3rem;
+    text-transform: capitalize;
+    margin: 1rem auto;
+}
+
+#heading{
+    position: absolute;
+    bottom: 28%;
+    left: 30%;
+    width: 30rem;
+    display: block;
+    padding: 1rem;
+    height: 3rem;
+}
+#body{
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    width: 30rem;
+    display: block;
+    padding: 1rem;
+    height: 8rem;
+
+
+}
+#button{
+    right: 9%;
+    bottom: 5%;
+    width: 8rem;
+    font-size: 1rem;
+    height: 3rem;
+    position: absolute;
+}
+#headerBlog{
+    text-align:left;
+    margin: 2rem 0rem 2rem 3rem ;
+
+}
+#paragraph{
+    margin: 0rem 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
