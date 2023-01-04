@@ -1,0 +1,9 @@
+{
+    "name":"shubham",
+    "age":20,
+    "collgeName":"C V Raman Global University",
+
+   "member": [
+        "newKeyword","lorem","$schema"
+    ]
+}
