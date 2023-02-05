@@ -1,0 +1,34 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+section{
+    height: 100vh;
+    position: relative;
+
+}
+.like{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: inline-block;
+    cursor: pointer;
+}
+.like::after{
+    content: "like and subscribe";
+    position: absolute;
+    top: -239%;
+    left: 50%;
+    transform: translate(-60% , -60%);
+   opacity: 0;
+}
+
+
+.like:hover.like::after{
+    opacity: 1;
+    background-color: aqua;
+    width: max-content;
+    padding: 1rem;
+}
