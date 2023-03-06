@@ -1,0 +1,18 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: greenyellow;
+}
+.link{
+    height: 100%;
+    font-size: 2rem;
+    margin: 1rem 3rem;
+}
